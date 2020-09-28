@@ -1,8 +1,9 @@
 {
-    "name": "avanciro/skel",
-    "description": "Skel - A Lightweight PHP framework.",
+    "name": "octiq/octiq",
+    "description": "Octiq - A Lightweight PHP framework.",
     "version": "2.0.0",
-    "type": "project",
+	"type": "project",
+	"keywords": [ "framework", "octiq" ],
     "authors": [
         {
             "name": "Shyamin Ayesh",
@@ -37,12 +38,15 @@
     "config": {
 		"vendor-dir": "libs",
 		"process-timeout": 0,
+		"sort-packages": true,
+		"preferred-install": "dist",
 		"optimize-autoloader": true
 	},
 	"scripts": {
 		"test": [ "./libs/bin/phpunit" ]
     },
-    "minimum-stability": "dev",
+	"minimum-stability": "dev",
+	"prefer-stable": true,
     "license": "MIT",
-    "homepage": "https://avanciro.com"
+    "homepage": "https://octiq.xyz"
 }
