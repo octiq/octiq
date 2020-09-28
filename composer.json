@@ -1,7 +1,6 @@
 {
     "name": "octiq/octiq",
     "description": "Octiq - A Lightweight PHP framework.",
-    "version": "2.0.0",
 	"type": "project",
 	"keywords": [ "framework", "octiq" ],
     "authors": [
