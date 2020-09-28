@@ -1,7 +1,7 @@
 <?php
 
-namespace Avanciro\Skel\Core;
-use Avanciro\Skel\Core\Registry;
+namespace Octiq\Core;
+use Octiq\Core\Registry;
 use Illuminate\Database\Capsule\Manager as Capsule;
 
 class Database {

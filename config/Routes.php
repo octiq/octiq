@@ -1,6 +1,6 @@
 <?php
 
-use Avanciro\Skel\Core\Route;
+use Octiq\Core\Route;
 
 // ROUTES
 Route::add('/', \App\Controller\Home::class, 'index');

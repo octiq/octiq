@@ -1,7 +1,7 @@
 <?php
 
-namespace Avanciro\Skel\Core;
-use Avanciro\Skel\Core\Registry;
+namespace Octiq\Core;
+use Octiq\Core\Registry;
 
 
 class Loader {

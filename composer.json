@@ -29,7 +29,7 @@
     "autoload": {
         "psr-4": {
 			"Avanciro\\Skel\\Console\\": "app/Console",
-            "Avanciro\\Skel\\Core\\": "app/Core",
+            "Octiq\\Core\\": "app/Core",
             "App\\Controller\\": "controllers/",
             "App\\Model\\": "models/"
         }

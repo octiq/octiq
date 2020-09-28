@@ -1,6 +1,6 @@
 <?php
 
-namespace Avanciro\Skel\Core;
+namespace Octiq\Core;
 
 class Config {
     public function __get($key) {

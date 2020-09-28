@@ -1,9 +1,9 @@
 <?php
 
-namespace Avanciro\Skel\Core;
-use Avanciro\Skel\Core\Route;
-use Avanciro\Skel\Core\Config;
-use Avanciro\Skel\Core\Database;
+namespace Octiq\Core;
+use Octiq\Core\Route;
+use Octiq\Core\Config;
+use Octiq\Core\Database;
 
 /**
  * This is where Skel start doing things upon getting
@@ -55,7 +55,7 @@ class App {
          * Initialize SESSION parameters to handle login kind
          * of stuff
          */
-        $Registry->set('session', new \Avanciro\Skel\Core\Session);
+        $Registry->set('session', new \Octiq\Core\Session);
 
         /**
          * We need to intercept the request.

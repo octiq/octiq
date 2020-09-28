@@ -1,5 +1,5 @@
 <?php
-namespace Avanciro\Skel\Core;
+namespace Octiq\Core;
 
 class Localization {
 

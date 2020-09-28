@@ -1,8 +1,7 @@
 <?php
 
-namespace Avanciro\Skel\Core;
-
-use Avanciro\Skel\Core\Registry;
+namespace Octiq\Core;
+use Octiq\Core\Registry;
 use Symfony\Component\Routing\Route as Symfony_Route;
 use Symfony\Component\HttpFoundation\Request as Symfony_Request;
 use Symfony\Component\Routing\RequestContext as Symfony_RequestContext;

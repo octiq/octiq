@@ -1,8 +1,7 @@
 <?php
 
-namespace Avanciro\Skel\Core;
-
-use Avanciro\Skel\Core\Registry;
+namespace Octiq\Core;
+use Octiq\Core\Registry;
 use Twig\TwigFunction;
 use Twig\Environment as Twig_Environment;
 use Twig\Loader\FilesystemLoader as Twig_FSLoader;

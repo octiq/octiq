@@ -3,7 +3,7 @@
 return [
 
     /**
-     * This switch will tell skel to enable or disable
+     * This switch will tell Octiq to enable or disable
      * localization capability. Leave this flag set to
      * false to completly disable localization functionalities
      */
