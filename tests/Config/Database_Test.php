@@ -1,11 +1,10 @@
 <?php
 
-namespace Avanciro\Skel\Tests\Config;
+namespace Octiq\Tests\Config;
 use PHPUnit\Framework\TestCase;
-
-use Avanciro\Skel\Core\Registry;
-use Avanciro\Skel\Core\Config;
-use Avanciro\Skel\Core\Database;
+use Octiq\Core\Registry;
+use Octiq\Core\Config;
+use Octiq\Core\Database;
 
 class Database_TestCase extends TestCase {
 

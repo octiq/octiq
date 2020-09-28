@@ -1,7 +1,6 @@
 <?php
 
-namespace Avanciro\Skel\Console\Commands;
-
+namespace Octiq\Console\Commands;
 use Symfony\Component\Console\Command\Command as SymfonyConsole_Command;
 use Symfony\Component\Console\Input\InputInterface as SymfonyConsole_InputInterface;
 use Symfony\Component\Console\Output\OutputInterface as SymfonyConsole_OutputInterface;
@@ -11,7 +10,7 @@ class Version extends SymfonyConsole_Command {
 	protected static $defaultName = 'version';
 
 	protected function configure() {
-		$this->setDescription("This command will display the version of installed Skel instance.");
+		$this->setDescription("This command will display the version of installed Octiq instance.");
 	}
 
 	protected function execute(SymfonyConsole_InputInterface $input, SymfonyConsole_OutputInterface $output) {

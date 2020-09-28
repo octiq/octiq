@@ -3,7 +3,7 @@
 return [
 
     /**
-     * This switch will tell Skel to load the ORM
+     * This switch will tell Octiq to load the ORM
      * into framework or not. You can leave this
      * as false if you don't wish to connect  your
      * application to any database.

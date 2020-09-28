@@ -1,10 +1,9 @@
 <?php
 
-namespace Avanciro\Skel\Tests\Config;
+namespace Octiq\Tests\Config;
 use PHPUnit\Framework\TestCase;
-
-use Avanciro\Skel\Core\Registry;
-use Avanciro\Skel\Core\Config;
+use Octiq\Core\Registry;
+use Octiq\Core\Config;
 
 class Twig_TestCase extends TestCase {
 

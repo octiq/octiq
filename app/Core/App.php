@@ -6,7 +6,7 @@ use Octiq\Core\Config;
 use Octiq\Core\Database;
 
 /**
- * This is where Skel start doing things upon getting
+ * This is where Octiq start doing things upon getting
  * new request. This will include
  */
 class App {

@@ -1,0 +1,12 @@
+#!/usr/bin/env php
+<?php
+require_once __DIR__."/libs/autoload.php";
+$Console = new Symfony\Component\Console\Application;
+
+// COMMANDS
+$Console->add(new Octiq\Console\Commands\Version);
+
+// RUN
+$Console->run();
+
+?>
