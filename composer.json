@@ -45,7 +45,7 @@
 	"scripts": {
 		"test": [ "./libs/bin/phpunit" ]
     },
-	"minimum-stability": "dev",
+	"minimum-stability": "stable",
 	"prefer-stable": true,
     "license": "MIT",
     "homepage": "https://octiq.xyz"
