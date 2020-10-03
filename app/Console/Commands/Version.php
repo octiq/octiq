@@ -10,11 +10,13 @@ class Version extends SymfonyConsole_Command {
 	protected static $defaultName = 'version';
 
 	protected function configure() {
-		$this->setDescription("This command will display the version of installed Octiq instance.");
+		$this->setDescription("This command will display the version of Octiq installation.");
 	}
 
+
+	// EXECUTE
 	protected function execute(SymfonyConsole_InputInterface $input, SymfonyConsole_OutputInterface $output) {
-		$output->writeln("v1.0.0-beta");
+		$output->writeln("v1.0.0");
 		return 0;
 	}
 }
