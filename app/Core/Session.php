@@ -1,15 +1,30 @@
 <?php
-
 namespace Octiq\Core;
 
 class Session {
 
+	protected $_registry = null;
 
     /**
      * This will initialize new $_SESSION
      */
-    public function __construct() {
-        session_start();
+    public function __construct(Registry $Registry) {
+		$this->_registry = $Registry;
+
+		/**
+		 * Check if the session is enabled in the configuration
+		 * and act according to it to enable /disable session
+		 */
+		if ( $this->_registry->config->session->enable ):
+			session_start([
+				"name"				=> $this->_registry->config->session->name,
+				"cookie_lifetime"	=> $this->_registry->config->session->cookie_lifetime,
+				"gc_maxlifetime"	=> $this->_registry->config->session->gc_maxlifetime
+			]);
+		endif;
+
+		// var_dump( $this->_registry->config->session );
+
     }
 
 

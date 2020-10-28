@@ -55,7 +55,7 @@ class App {
          * Initialize SESSION parameters to handle login kind
          * of stuff
          */
-        $Registry->set('session', new \Octiq\Core\Session);
+        $Registry->set('session', new \Octiq\Core\Session($Registry));
 
         /**
          * We need to intercept the request.
